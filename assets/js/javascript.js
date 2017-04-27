@@ -1205,3 +1205,15 @@ var usuarios = [
 for (var i = 0; i < 10; i++) {
 	document.write('<ul><li>' + usuarios[i].title +'</li></ul>'); //lista para que salga en html
 }
+function agregarTarea(){
+	var tareaNueva = document.getElementById('inputTarea').value;
+	var nuevoItem = document.createElement("li");
+	nuevoItem.innerHTML = tareaNueva;
+	document.getElementById('tareaNueva').appendChild(nuevoItem);
+}
+
+
+
+
+
+
