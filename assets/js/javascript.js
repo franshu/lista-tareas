@@ -1209,7 +1209,7 @@ function agregarTarea(){
 	var tareaNueva = document.getElementById('inputTarea').value;
 	var nuevoItem = document.createElement("li");
 	nuevoItem.innerHTML = tareaNueva;
-	document.getElementById('tareaNueva').appendChild(nuevoItem);
+	document.getElementById('tareaNueva').appendChild(nuevoItem); //agregar item nuevo a la lista
 }
 
 
